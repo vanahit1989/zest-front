@@ -48,13 +48,12 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "lint-staged",
+      "pre-commit": "git add -A . && lint-staged",
       "pre-push": "npm run test:nowatch"
     }
   },
   "lint-staged": {
-    "src/**/*.{ts,tsx}": [
-      "git add .",
+    "src/**/*.{ts,tsx,json}": [
       "npm run format",
       "npm run lint",
       "npm run lint:css"
