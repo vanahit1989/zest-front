@@ -13,6 +13,7 @@
     "@types/react-dom": "^17.0.11",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
+    "react-redux": "^7.2.6",
     "react-router-dom": "^6.2.1",
     "react-scripts": "5.0.0",
     "redux": "^4.1.2",
@@ -29,7 +30,7 @@
     "format": "prettier --ignore-path .gitignore --write \"**/*.+(tsx|ts|json)\"",
     "lint:CI": "eslint --quiet src/**/*.{ts,tsx}",
     "stylelint-check": "stylelint-config-prettier-check",
-    "lint:css": "stylelint './**/*.tsx'"
+    "lint:css": "stylelint src/**/*.{ts,tsx}"
   },
   "eslintConfig": {
     "extends": [
@@ -64,6 +65,7 @@
   },
   "devDependencies": {
     "@stylelint/postcss-css-in-js": "^0.37.2",
+    "@types/lodash": "^4.14.178",
     "@types/styled-components": "^5.1.21",
     "@typescript-eslint/eslint-plugin": "^5.10.2",
     "@typescript-eslint/parser": "^5.10.2",
@@ -71,10 +73,12 @@
     "eslint-config-airbnb": "^19.0.4",
     "eslint-config-airbnb-typescript-prettier": "^5.0.0",
     "eslint-config-prettier": "^8.3.0",
+    "eslint-import-resolver-typescript": "^2.5.0",
     "eslint-plugin-import": "^2.25.4",
     "eslint-plugin-jsx-a11y": "^6.5.1",
     "eslint-plugin-react": "^7.28.0",
     "eslint-plugin-react-hooks": "^4.3.0",
+    "eslint-plugin-simple-import-sort": "^7.0.0",
     "husky": "^7.0.0",
     "lint-staged": "^12.3.3",
     "prettier": "^2.5.1",
