@@ -1,6 +1,6 @@
 import React from 'react';
 import { Select } from 'antd';
-import { SelectProps } from 'src/components/antd/Select';
+import { SelectProps } from 'components/antd/Select';
 
 const { Option } = Select;
 

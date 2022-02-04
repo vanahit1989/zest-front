@@ -1,11 +1,11 @@
-import { Button } from 'src/components/antd';
+import { Button } from 'components/antd';
 import styled from 'styled-components';
 import {
   TButtonProps,
   TButtonStyles,
   TButtonTypes,
-} from 'src/components/base/Button/types';
-import { Colors } from 'src/core/CssVariables';
+} from 'components/base/Button/types';
+import { Colors } from 'core/CssVariables';
 
 const btnStyles: TButtonStyles = {
   [TButtonTypes.Info]: {

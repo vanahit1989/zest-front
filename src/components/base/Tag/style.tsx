@@ -1,10 +1,10 @@
 import { Tag } from 'antd';
 import { TagProps } from 'antd/es/tag';
 import styled, { ThemeProps } from 'styled-components';
-import { TThemeProps } from 'src/theme';
-import { TButtonTypes } from 'src/components/base/Button/types';
-import { Colors } from 'src/core/CssVariables';
-import { TTag } from 'src/components/base/Tag/types';
+import { TThemeProps } from 'theme';
+import { TButtonTypes } from 'components/base/Button/types';
+import { Colors } from 'core/CssVariables';
+import { TTag } from 'components/base/Tag/types';
 
 const createTagStyles = (outline?: boolean, color?: boolean) => `
   border: ${outline && 0};

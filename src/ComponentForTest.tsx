@@ -1,14 +1,14 @@
 import React from 'react';
 import styled from 'styled-components';
-import { TButtonTypes } from 'src/components/base/Button/types';
-import { TInputTypes } from 'src/components/base/Input/types';
+import { TButtonTypes } from 'components/base/Button/types';
+import { TInputTypes } from 'components/base/Input/types';
 import { Col, Row } from 'antd';
-import Button from 'src/components/base/Button';
-import { Text, Title } from 'src/components/base/Typography';
+import Button from 'components/base/Button';
+import { Text, Title } from 'components/base/Typography';
 import { EyeInvisibleOutlined, EyeTwoTone } from '@ant-design/icons';
-import { Input, Password } from 'src/components/base/Input';
-import PasswordProgress from 'src/components/base/PasswordProgress';
-import { CustomSelect } from 'src/components/base/Select';
+import { Input, Password } from 'components/base/Input';
+import PasswordProgress from 'components/base/PasswordProgress';
+import { CustomSelect } from 'components/base/Select';
 
 export function ComponentForTest() {
   return (

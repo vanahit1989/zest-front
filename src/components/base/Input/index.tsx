@@ -5,14 +5,14 @@ import {
   SPassword,
   SSearch,
   STextArea,
-} from 'src/components/base/Input/style';
+} from 'components/base/Input/style';
 import {
   TGroupProps,
   TInputProps,
   TPasswordProps,
   TSearchProps,
   TTextAreaProps,
-} from 'src/components/base/Input/types';
+} from 'components/base/Input/types';
 
 export function Input(props: TInputProps) {
   return <SInput {...props} />;

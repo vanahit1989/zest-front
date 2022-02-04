@@ -2,7 +2,7 @@ import {
   ParagraphProps,
   TitleProps,
   TextProps,
-} from 'src/components/antd/Typography';
+} from 'components/antd/Typography';
 
 export type TLevel = {
   level: 1 | 2 | 3 | 4 | 5 | 6 | 7;

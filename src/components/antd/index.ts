@@ -69,8 +69,8 @@ export { default as Upload } from 'antd/lib/upload';
 export { default as version } from 'antd/lib/version';
 
 // overwritten
-export { default as Button, ButtonProps } from 'antd/es/button';
+export { default as Button} from 'antd/es/button';
 export { default as Space } from 'antd/es/space';
-export { default as Input, InputProps } from 'antd/es/input';
-export { default as Col } from 'src/components/antd/Col/Col';
-export { default as Typography, TypographyProps } from 'antd/es/typography';
+export { default as Input } from 'antd/es/input';
+export { default as Col } from 'components/antd/Col/Col';
+export { default as Typography } from 'antd/es/typography';
