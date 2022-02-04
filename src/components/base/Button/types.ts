@@ -1,4 +1,4 @@
-import { Colors } from 'src/core/CssVariables';
+import { Colors } from 'core/CssVariables';
 import { ButtonProps } from 'antd';
 
 export enum TButtonTypes {

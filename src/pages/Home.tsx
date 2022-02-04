@@ -1,6 +1,6 @@
 import React from 'react';
 import { Route, Routes } from 'react-router-dom';
-import { ComponentForTest } from 'src/ComponentForTest';
+import { ComponentForTest } from 'ComponentForTest';
 
 export function Home() {
   return (

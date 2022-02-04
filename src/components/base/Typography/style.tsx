@@ -1,4 +1,4 @@
-import { FontSizes } from 'src/core/CssVariables';
+import { FontSizes } from 'core/CssVariables';
 import styled from 'styled-components';
 import { Typography } from 'antd';
 import { TParagraphProps, TTextProps, TTitleProps } from './types';

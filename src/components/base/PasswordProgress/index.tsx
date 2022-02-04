@@ -1,5 +1,5 @@
 import React, { useState, ChangeEvent, useRef, RefObject } from 'react';
-import { Password } from 'src/components/base/Input';
+import { Password } from 'components/base/Input';
 import { Col, Progress, Row, Space } from 'antd';
 import {
   CheckOutlined,
@@ -7,16 +7,16 @@ import {
   EyeTwoTone,
   StopOutlined,
 } from '@ant-design/icons';
-import { Colors } from 'src/core/CssVariables';
+import { Colors } from 'core/CssVariables';
 import {
   TPassedValidations,
   TPasswordProgress,
   TValidationRules,
   TValidationTags,
-} from 'src/components/base/PasswordProgress/types';
-import useResize from 'src/hooks/onResize';
-import { regexPatterns } from 'src/components/form/validationRules';
-import Tag from 'src/components/base/Tag';
+} from 'components/base/PasswordProgress/types';
+import useResize from 'hooks/onResize';
+import { regexPatterns } from 'components/form/validationRules';
+import Tag from 'components/base/Tag';
 
 const validationRules: TValidationRules = {
   [TValidationTags.LOWERCASE]: regexPatterns.oneLowerCase,

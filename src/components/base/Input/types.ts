@@ -1,11 +1,11 @@
-import { Colors } from 'src/core/CssVariables';
+import { Colors } from 'core/CssVariables';
 import { InputProps } from 'antd';
 import {
   GroupProps,
   PasswordProps,
   TextAreaProps,
   SearchProps,
-} from 'src/components/antd/Input';
+} from 'components/antd/Input';
 
 export enum TInputTypes {
   Info = 'info',

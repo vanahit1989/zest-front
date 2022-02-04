@@ -1,6 +1,6 @@
 import { Input } from 'components/antd';
 import styled, { ThemeProps } from 'styled-components';
-import { Colors } from 'src/core/CssVariables';
+import { Colors } from 'core/CssVariables';
 import {
   TGroupProps,
   TInputProps,
@@ -9,8 +9,8 @@ import {
   TPasswordProps,
   TSearchProps,
   TTextAreaProps,
-} from 'src/components/base/Input/types';
-import {} from 'src/components/base/Input/index';
+} from 'components/base/Input/types';
+import {} from 'components/base/Input/index';
 
 const { Password, Search, TextArea, Group } = Input;
 const inputStyles: TInputStyles = {
