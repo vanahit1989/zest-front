@@ -1,10 +1,14 @@
 import React from 'react';
+import styled from 'styled-components';
 import logo from './logo.svg';
-import './App.css';
+
+const StyledDiv = styled.div`
+  background-color: red;
+`;
 
 function App() {
   return (
-    <div className="App">
+    <StyledDiv className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
@@ -18,7 +22,7 @@ function App() {
           Learn React
         </a>
       </header>
-    </div>
+    </StyledDiv>
   );
 }
 
